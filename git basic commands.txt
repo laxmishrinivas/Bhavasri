@@ -1,0 +1,19 @@
+git basic commands.............
+
+git init ----------it will create the new empty local repository
+
+git status --------it will show the status of files which are tracked or untracked
+
+git add . or git add -a or git add file name -------it will add the files to stagging area
+
+git config----global user.email "gopi@gmail.com"
+git config----global user.name "gopi"
+      these are commands to execute only once before we commit to know the local repository who are using
+
+git commit -m "commit name" ----- it will commit the new files or commit the changes of files into local repository
+
+git log ----- it will show you the commit history like commits code, commits, commits created time...
+
+git commit -a -m "modified files" ------the files which are alredy tracked and those are modified then if we want to add and commit with a single command
+
+
